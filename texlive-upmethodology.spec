@@ -1,12 +1,12 @@
-# revision 16575
+# revision 27896
 # category Package
 # catalog-ctan /macros/latex/contrib/upmethodology
-# catalog-date 2010-01-02 16:58:48 +0100
+# catalog-date 2012-10-04 10:39:49 +0200
 # catalog-license lgpl
 # catalog-version undef
 Name:		texlive-upmethodology
-Version:	20100102
-Release:	2
+Version:	20121004
+Release:	1
 Summary:	Writing specification such as for UP-based methodologies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/upmethodology
