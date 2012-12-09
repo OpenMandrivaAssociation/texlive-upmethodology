@@ -1,12 +1,12 @@
-# revision 27896
+# revision 16575
 # category Package
 # catalog-ctan /macros/latex/contrib/upmethodology
-# catalog-date 2012-10-04 10:39:49 +0200
+# catalog-date 2010-01-02 16:58:48 +0100
 # catalog-license lgpl
 # catalog-version undef
 Name:		texlive-upmethodology
-Version:	20121004
-Release:	1
+Version:	20100102
+Release:	2
 Summary:	Writing specification such as for UP-based methodologies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/upmethodology
@@ -74,3 +74,16 @@ management, and several helping macros.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100102-2
++ Revision: 757325
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100102-1
++ Revision: 719858
+- texlive-upmethodology
+- texlive-upmethodology
+- texlive-upmethodology
+
