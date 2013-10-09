@@ -1,13 +1,13 @@
-# revision 16575
+# revision 31801
 # category Package
 # catalog-ctan /macros/latex/contrib/upmethodology
-# catalog-date 2010-01-02 16:58:48 +0100
+# catalog-date 2013-09-29 21:28:52 +0200
 # catalog-license lgpl
 # catalog-version undef
 Name:		texlive-upmethodology
-Version:	20100102
-Release:	2
-Summary:	Writing specification such as for UP-based methodologies
+Version:	20130929
+Release:	1
+Summary:	Writing specifications such as for UP-based methodologies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/upmethodology
 License:	LGPL
@@ -35,6 +35,7 @@ management, and several helping macros.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/upmethodology/UPMVERSION.def
 %{_texmfdistdir}/tex/latex/upmethodology/upmethodology-backpage.sty
 %{_texmfdistdir}/tex/latex/upmethodology/upmethodology-code.sty
 %{_texmfdistdir}/tex/latex/upmethodology/upmethodology-document.cls
@@ -49,19 +50,18 @@ management, and several helping macros.
 %doc %{_texmfdistdir}/doc/latex/upmethodology/AUTHORS
 %doc %{_texmfdistdir}/doc/latex/upmethodology/COPYING
 %doc %{_texmfdistdir}/doc/latex/upmethodology/Changelog
-%doc %{_texmfdistdir}/doc/latex/upmethodology/INSTALL
-%doc %{_texmfdistdir}/doc/latex/upmethodology/NEWS
 %doc %{_texmfdistdir}/doc/latex/upmethodology/README
-%doc %{_texmfdistdir}/doc/latex/upmethodology/TODO
+%doc %{_texmfdistdir}/doc/latex/upmethodology/README.textile
 %doc %{_texmfdistdir}/doc/latex/upmethodology/VERSION
 %doc %{_texmfdistdir}/doc/latex/upmethodology/arakhne_org_logo.jpg
 %doc %{_texmfdistdir}/doc/latex/upmethodology/caution.png
+%doc %{_texmfdistdir}/doc/latex/upmethodology/figure_and_tex.pdf
+%doc %{_texmfdistdir}/doc/latex/upmethodology/figure_and_tex.pdftex_t
 %doc %{_texmfdistdir}/doc/latex/upmethodology/frontclassic.jpg
 %doc %{_texmfdistdir}/doc/latex/upmethodology/frontmodern.jpg
 %doc %{_texmfdistdir}/doc/latex/upmethodology/illustration.jpg
 %doc %{_texmfdistdir}/doc/latex/upmethodology/info.png
 %doc %{_texmfdistdir}/doc/latex/upmethodology/question.png
-%doc %{_texmfdistdir}/doc/latex/upmethodology/small_arakhne_org_logo.jpg
 %doc %{_texmfdistdir}/doc/latex/upmethodology/upmethodology-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/upmethodology/upmethodology-doc.tex
 
@@ -74,16 +74,3 @@ management, and several helping macros.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100102-2
-+ Revision: 757325
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100102-1
-+ Revision: 719858
-- texlive-upmethodology
-- texlive-upmethodology
-- texlive-upmethodology
-
