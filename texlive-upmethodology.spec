@@ -1,11 +1,11 @@
-# revision 32933
+# revision 33091
 # category Package
 # catalog-ctan /macros/latex/contrib/upmethodology
-# catalog-date 2014-02-09 21:20:33 +0100
+# catalog-date 2014-03-03 17:31:22 +0100
 # catalog-license lgpl
 # catalog-version undef
 Name:		texlive-upmethodology
-Version:	20140209
+Version:	20140303
 Release:	1
 Summary:	Writing specifications such as for UP-based methodologies
 Group:		Publishing
