@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-upmethodology
 Version:	20140303
-Release:	4
+Release:	5
 Summary:	Writing specifications such as for UP-based methodologies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/upmethodology
