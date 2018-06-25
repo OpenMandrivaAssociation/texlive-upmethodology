@@ -1,5 +1,5 @@
 Name:		texlive-upmethodology
-Version:	20171212
+Version:	20180303
 Release:	1
 Summary:	Writing specifications such as for UP-based methodologies
 Group:		Publishing
