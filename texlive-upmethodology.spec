@@ -3,7 +3,7 @@ Version:	64613
 Release:	2
 Summary:	Writing specifications such as for UP-based methodologies
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/upmethodology
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/upmethodology
 License:	LGPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/upmethodology.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/upmethodology.doc.r%{version}.tar.xz
