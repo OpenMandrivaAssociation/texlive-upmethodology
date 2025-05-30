@@ -1,6 +1,6 @@
 Name:		texlive-upmethodology
-Version:	64613
-Release:	2
+Version:	75054
+Release:	1
 Summary:	Writing specifications such as for UP-based methodologies
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/upmethodology
